@@ -1,20 +1,14 @@
-ver 1.02
-10/13/18
+#Changelog
 
-Fixed a bug that prevented the Fregata's SP2 Color texture (fregata4.png) from loading in-mission. 
+##[1.02] - 10/13/18
+### Changed
+- Fixed a bug that prevented the Fregata's SP2 Color texture (fregata4.png) from loading in-mission. 
 
------------------------
+##[1.01] - 10/11/2018
+#### Added 
+- Xbox controller button prompts to main pack
 
-ver 1.01
-10/11/2018
-
-Added Xbox controller button prompts to main pack
-
------------------------
-
-ver 1.00
-10/11/2018
-
-Initial Release
-160 Aircraft Textures
-Hangar floor & wall textures
+##[1.00] - 10/11/2018
+### Initial Release
+- 160 Aircraft Textures
+- Hangar floor & wall textures
