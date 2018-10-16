@@ -1,5 +1,9 @@
 #Changelog
 
+##[1.03] - 10/14/18
+### Added
+- High resolution textures for the KC-10 & Carrier in their respective landing/refueling seqence.  
+
 ##[1.02] - 10/13/18
 ### Changed
 - Fixed a bug that prevented the Fregata's SP2 Color texture (fregata4.png) from loading in-mission. 
