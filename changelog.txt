@@ -1,10 +1,12 @@
 #Changelog
 
-##[1.03] - 10/14/18
+##[1.03] - 10/18/2018
 ### Added
-- High resolution textures for the KC-10 & Carrier in their respective landing/refueling seqence.  
+- High resolution textures for the KC-10 & Carrier in their respective landing/refueling seqence. 
+### Changed
+- Fixed a bug that prevented XBox button prompts from showing on replays 
 
-##[1.02] - 10/13/18
+##[1.02] - 10/13/2018
 ### Changed
 - Fixed a bug that prevented the Fregata's SP2 Color texture (fregata4.png) from loading in-mission. 
 
