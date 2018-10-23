@@ -1,20 +1,34 @@
+Ace Combat X - Remastered HD Texture Pack
+https://superostrich.github.io
+
 #Changelog
+
+##[1.04] - 10/22/2018
+### Added
+- HD texture for Gleipneir
+- Discreet 256px & 512px textures for Allied NPC aircraft that appear in Missions 01,12,&15;  located in \props\npc
+### Changed
+- Fixed an issse with F-22A textures that caused seat warning plackards to appear skewed in-game
+- Fixed an issue with MiG-29 SP2 color (fulcrum4.png) that caused the cockpit to appear grey instead of black 
+- Corrected intake details on Su-27 and Su-37 textures 
+- Cleaned up & de-duplicated INI file using wildcards 
 
 ##[1.03] - 10/18/2018
 ### Added
-- High resolution textures for the KC-10 & Carrier in their respective landing/refueling seqence. 
+- High resolution texture for the KC-10 in refueling sequences
+- High resolution textures for Kitty Hawk class carrier in landing seqences
 ### Changed
 - Fixed a bug that prevented XBox button prompts from showing on replays 
 
 ##[1.02] - 10/13/2018
 ### Changed
-- Fixed a bug that prevented the Fregata's SP2 Color texture (fregata4.png) from loading in-mission. 
+- Fixed a bug that prevented the Fregata SP2 Color texture (fregata4.png) from loading in-mission. 
 
 ##[1.01] - 10/11/2018
-#### Added 
+### Added 
 - Xbox controller button prompts to main pack
 
 ##[1.00] - 10/11/2018
 ### Initial Release
-- 160 Aircraft Textures
-- Hangar floor & wall textures
+- HD textures for all 160 player-aircraft liveries
+- HD textures for hangar floor & wall textures
