@@ -3,6 +3,11 @@ https://superostrich.github.io
 
 #Changelog
 
+##[1.05] - 10/2?/2018
+### Changed 
+- Fixed missing navigation lights on the F-15S/MTD
+- Fixed asymetrical details, and errant cockpit texture on the F-5E
+
 ##[1.04] - 10/22/2018
 ### Added
 - HD texture for Gleipneir
