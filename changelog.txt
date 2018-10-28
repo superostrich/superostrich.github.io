@@ -3,6 +3,20 @@ https://superostrich.github.io
 
 #Changelog
 
+##[1.05] - 10/28/2018
+### Added
+- New textures for 3D objects in Port Patterson, Terminus Oil Facility, Griswal, and Archerlon Fortress
+- New textures for naval vessels
+- New title screens
+- Higher resolution briefing UX texture
+### Changed 
+- Fixed missing navigation lights on the F-15S/MTD
+- Fixed asymetrical details, and errant cockpit texture on the F-5E
+- Fixed issue with allied F-22 missing canopies
+- Fixed issue with allied F-4 incorrect decal positions
+
+
+
 ##[1.04] - 10/22/2018
 ### Added
 - HD texture for Gleipneir
