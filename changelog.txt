@@ -3,6 +3,13 @@ https://superostrich.github.io
 
 #Changelog
 
+##[1.06] - 11/13/2018
+## Added
+- Replaced Main Font 
+- New textures for Nevera Jammer 
+###Changed
+- Minor detail cleanup on A-10A
+
 ##[1.05] - 10/28/2018
 ### Added
 - New textures for 3D objects in Port Patterson, Terminus Oil Facility, Griswal, and Archerlon Fortress
@@ -14,8 +21,6 @@ https://superostrich.github.io
 - Fixed asymetrical details, and errant cockpit texture on the F-5E
 - Fixed issue with allied F-22 missing canopies
 - Fixed issue with allied F-4 incorrect decal positions
-
-
 
 ##[1.04] - 10/22/2018
 ### Added
