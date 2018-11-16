@@ -1,5 +1,5 @@
-Ace Combat X - Remastered HD Texture Pack
-https://superostrich.github.io
+Ace Combat X - HD Texture Pack
+https://superostrich.xyz
 
 #Changelog
 
@@ -49,5 +49,3 @@ https://superostrich.github.io
 
 ##[1.00] - 10/11/2018
 ### Initial Release
-- HD textures for all 160 player-aircraft liveries
-- HD textures for hangar floor & wall textures
