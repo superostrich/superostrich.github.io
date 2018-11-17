@@ -11,22 +11,14 @@
     <title>Ace Combat X - HD Texture Pack</title>
 
     <!-- Bootstrap core CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="vendor/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
     <link href="css/blogstyle.css" rel="stylesheet">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50234009-3"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
 
-	  gtag('config', 'UA-50234009-3');
-	</script>
-
-	
   </head>
 
   <body>
@@ -114,8 +106,8 @@
 		  <ol>
 			  <li>
 			  Extract the contents of the zip file to <b>\ppsspp\memstick\PSP\TEXTURES\ULUS10176</b><br>
-
-			  <small><a href="#regions" data-toggle="collapse">Click for JP & EU Version</a></small><br><br>
+			  
+			  <small><a href="javascript:showhide('regions')">Click for JP & EU Version</a></small><br><br>
 				  <div id="regions" class="collapse">
 					  JP: <b>\ppsspp\memstick\PSP\TEXTURES\ULJS00086</b><br><br>
 					  EU: <b>\ppsspp\memstick\PSP\TEXTURES\UCES00423</b><br><br>
@@ -291,9 +283,12 @@
       <!-- /.container -->
     </footer>
 
-    <!-- Bootstrap core JavaScript
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+	<script>
+	     function showhide(id) {
+       	var e = document.getElementById(id);
+       	e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+     }
+	</script>
 
   </body>
 
