@@ -1,7 +1,11 @@
-Ace Combat X - HD Texture Pack
-https://superostrich.xyz
+Ace Combat X - Remastered HD Texture Pack
+https://superostrich.github.io
 
 #Changelog
+
+##[1.07] 12/1/2018
+##Changed
+- Detail cleanup on Berkut Aurelia Color
 
 ##[1.06] - 11/13/2018
 ## Added
@@ -49,3 +53,4 @@ https://superostrich.xyz
 
 ##[1.00] - 10/11/2018
 ### Initial Release
+
