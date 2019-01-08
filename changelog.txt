@@ -1,17 +1,26 @@
 Ace Combat X - Remastered HD Texture Pack
-https://superostrich.github.io
+https://superostrich.xyz
 
 #Changelog
 
+##[1.08] 1/7/19
+###Added
+- High Resolution HUD
+- High Resolution Main Menu font
+###Changed
+- Fixed missing refueling probe texture on MiG-21
+- Minor detail cleanup on F-2A
+- contents of /buttons/ moved to /interface/symbols
+
 ##[1.07] 12/1/2018
-##Changed
+### Changed
 - Detail cleanup on Berkut Aurelia Color
 
 ##[1.06] - 11/13/2018
-## Added
+### Added
 - Replaced Main Font 
 - New textures for Nevera Jammer 
-###Changed
+### Changed
 - Minor detail cleanup on A-10A
 
 ##[1.05] - 10/28/2018
