@@ -1,7 +1,15 @@
-Ace Combat X - Remastered HD Texture Pack
+Ace Combat X - HD Texture Remaster
 https://superostrich.xyz
 
 #Changelog
+
+##[1.09] 1/31/19
+###Added
+- New textures for weapon icons on HUD
+- New textures for player aircraft status icon on HUD
+###Changed
+- Fixed issue where under some conditions, high resolution title screen would fail to load
+- Fixed missing <<brackets>> in system font
 
 ##[1.08] 1/7/19
 ###Added
@@ -18,7 +26,7 @@ https://superostrich.xyz
 
 ##[1.06] - 11/13/2018
 ### Added
-- Replaced Main Font 
+- Replaced system font 
 - New textures for Nevera Jammer 
 ### Changed
 - Minor detail cleanup on A-10A
