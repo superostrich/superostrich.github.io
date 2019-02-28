@@ -3,6 +3,15 @@ https://superostrich.xyz
 
 #Changelog
 
+##[1.02] - 1/?/2019
+###Added
+- High Resolution HUD
+- High Resolution Main Menu
+###Changed
+- Removed errant decals on Typhoon color 02
+- Fixed black spots on 747 textures
+- Fixed missing "%" character in system font
+
 ##[1.01] - 12/1/2018
 ###Changed
 - Cleaned up dorsal surface details on Berkut colors 01 & 06
