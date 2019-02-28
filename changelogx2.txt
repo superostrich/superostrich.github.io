@@ -3,7 +3,7 @@ https://superostrich.xyz
 
 #Changelog
 
-##[1.02] - 1/?/2019
+##[1.02] - 2/28/2019
 ###Added
 - High Resolution HUD
 - High Resolution Main Menu
