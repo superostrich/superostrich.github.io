@@ -3,18 +3,32 @@ https://superostrich.xyz
 
 #Changelog
 
+##[1.10] 3/5/19
+###Added
+- New high resolution font for all menus
+- New window frames for menus
+- High resolution briefing maps, icons, and slides
+- New weapon previews
+- New in-game weapon textures
+###Changed
+- Upscaled in-game target icons (WIP)
+- Re-drawn title screen
+- New naming convention for aircraft textures
+- Re-organized folder structure
+- Playstation buttons now included with base pack
+
 ##[1.09] 1/31/19
 ###Added
 - New textures for weapon icons on HUD
 - New textures for player aircraft status icon on HUD
 ###Changed
 - Fixed issue where under some conditions, high resolution title screen would fail to load
-- Fixed missing <<brackets>> in system font
+- Fixed missing <<brackets>> in ppsspp system font
 
 ##[1.08] 1/7/19
 ###Added
-- High Resolution HUD
-- High Resolution Main Menu font
+- High resolution HUD
+- High resolution main menu font
 ###Changed
 - Fixed missing refueling probe texture on MiG-21
 - Minor detail cleanup on F-2A
