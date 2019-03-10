@@ -3,11 +3,6 @@ https://superostrich.xyz
 
 #Changelog
 
-##[1.11] 3/5/19
-###Changed
-- Fixed issue where MiG-21 status icon failed to load
-- Re-rawn Xbox and Playstation button prompts
-
 ##[1.10] 3/5/19
 ###Added
 - New high resolution font for all menus
