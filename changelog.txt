@@ -3,6 +3,11 @@ https://superostrich.xyz
 
 #Changelog
 
+##[1.11] 3/5/19
+###Changed
+- Fixed issue where MiG-21 status icon failed to load
+- Re-rawn Xbox and Playstation button prompts
+
 ##[1.10] 3/5/19
 ###Added
 - New high resolution font for all menus
@@ -10,8 +15,8 @@ https://superostrich.xyz
 - High resolution briefing maps, icons, and slides
 - New weapon previews
 - New in-game weapon textures
+- Upscaled in-game target & objective icons (WIP)
 ###Changed
-- Upscaled in-game target icons (WIP)
 - Re-drawn title screen
 - New naming convention for aircraft textures
 - Re-organized folder structure

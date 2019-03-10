@@ -3,6 +3,22 @@ https://superostrich.xyz
 
 #Changelog
 
+##[1.03] 3/5/19
+###Added
+- High resolution font for all menus
+- Window frames for menus
+- Briefing icons
+- High resolution aircraft and weapon HUD icons 
+- New weapon previews
+- Upscaled in-game target & objective icons (WIP)
+###Changed
+- Re-drawn title screen
+- Adjusted HUD text spacing
+- New naming convention for aircraft textures
+- Re-organized folder structure
+- Re-drawn Xbox and Playstation button prompts
+- Playstation buttons now included with base pack
+
 ##[1.02] - 2/28/2019
 ###Added
 - High Resolution HUD
