@@ -3,7 +3,18 @@ https://superostrich.xyz
 
 #Changelog
 
-##[1.10] 3/5/19
+##[1.10.1] 3/17/2019
+###Added
+- Moon texture
+###Changed
+- Re-done, free-mission select map
+- Adjustments to HUD font spacing
+- Fixed issue where MiG-21 status icon failed to load
+- Re-drawn Xbox and Playstation button prompts
+- Harmonized aircraft naming convention with the JA pack
+
+
+##[1.10] 3/5/2019
 ###Added
 - New high resolution font for all menus
 - New window frames for menus
@@ -17,7 +28,7 @@ https://superostrich.xyz
 - Re-organized folder structure
 - Playstation buttons now included with base pack
 
-##[1.09] 1/31/19
+##[1.09] 1/31/2019
 ###Added
 - New textures for weapon icons on HUD
 - New textures for player aircraft status icon on HUD
@@ -25,7 +36,7 @@ https://superostrich.xyz
 - Fixed issue where under some conditions, high resolution title screen would fail to load
 - Fixed missing <<brackets>> in ppsspp system font
 
-##[1.08] 1/7/19
+##[1.08] 1/7/2019
 ###Added
 - High resolution HUD
 - High resolution main menu font
