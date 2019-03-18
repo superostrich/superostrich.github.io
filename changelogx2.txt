@@ -3,7 +3,7 @@ https://superostrich.xyz
 
 #Changelog
 
-##[1.03] 3/5/19
+##[1.03] 3/5/2019
 ###Added
 - High resolution font for all menus
 - Window frames for menus
