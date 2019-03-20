@@ -3,6 +3,12 @@ https://superostrich.xyz
 
 #Changelog
 
+##[1.04] 3/19/2019
+###Added
+- All-new stage-select maps 
+- Briefing slides 
+- Weapon textures
+
 ##[1.03] 3/5/2019
 ###Added
 - High resolution font for all menus
