@@ -2,6 +2,9 @@ Ace Combat X - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog
+##[10.10.3]
+###Changed
+- Adjusted light reflections on menu background
 
 ##[1.10.2] 3/26/2019
 ###Added
