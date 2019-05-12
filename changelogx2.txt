@@ -3,6 +3,10 @@ https://superostrich.xyz
 
 #Changelog
 
+##[1.04.2] 5/12/2019
+###Changed
+- Added lakes to map of Western USA
+- Fixed missing brackets in system font
 
 ##[1.04.1] 3/26/2019
 ###Added

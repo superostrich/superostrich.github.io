@@ -2,7 +2,11 @@ Ace Combat X - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog
-
+##[1.10.3] 5/12/2019
+###Changed
+- Adjusted light reflections on menu background
+- Fixed incorrect transparencies on destroyer 
+- Fixed strangely shaped J character in UX font
 
 ##[1.10.2] 3/26/2019
 ###Added
