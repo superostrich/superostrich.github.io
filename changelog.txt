@@ -2,6 +2,11 @@ Ace Combat X - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog
+##[1.10.4] 6/17/2019
+###Changed
+- Minor cleanup on menu font textures
+- Detail and Lighting cleanup on ADF-01
+
 ##[1.10.3] 5/12/2019
 ###Changed
 - Adjusted light reflections on menu background
