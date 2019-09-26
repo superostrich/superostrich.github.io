@@ -3,6 +3,10 @@ https://superostrich.xyz
 
 #Changelog
 
+##[1.05.0] 7/15/2019
+###Added
+- Support for Drag & Drop installation
+
 ##[1.04.2] 5/12/2019
 ###Changed
 - Added lakes to map of Western USA

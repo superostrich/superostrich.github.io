@@ -2,6 +2,11 @@ Ace Combat X - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog
+
+##[1.11.0] 7/15/2019
+###Added
+- Support for Drag & Drop installation
+
 ##[1.10.4] 6/17/2019
 ###Changed
 - Minor cleanup on menu font textures
