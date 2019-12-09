@@ -9,7 +9,7 @@ Changed
 - Re-drawn 2048px HUD texture
 - Menu & HUD fontsheets remade using ACES5 font by ElectronicOldMen
 - Re-done PPSSPP system font replacement
-- All player aircraft textures updaed using re-drawn roundels/emblems
+- All player aircraft textures updated using re-drawn roundels/emblems
 
 
 ##[1.11.0] 7/15/2019
