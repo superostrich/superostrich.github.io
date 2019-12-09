@@ -2,6 +2,7 @@ Ace Combat X - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog
+
 ##[1.20.0]
 ###Added
 - Replacement font for users with PSP fonts installed in PPSSPP
@@ -10,7 +11,8 @@ Changed
 - Menu & HUD fontsheets remade using ACES5 font by ElectronicOldMen
 - Re-done PPSSPP system font replacement
 - All player aircraft textures updated using re-drawn roundels/emblems
-
+- Title screen updated to use ACES5 typeface
+- Mission Slides updated to use ACES5 typeface
 
 ##[1.11.0] 7/15/2019
 ###Added
