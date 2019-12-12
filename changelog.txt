@@ -11,7 +11,7 @@ Changed
 - Menu & HUD fontsheets remade using ACES5 font by ElectronicOldMen
 - Re-done PPSSPP system font replacement
 - All player aircraft textures updated using re-drawn roundels/emblems
-- Title screen updated to use ACES5 typeface
+- Title screen 'press start' updated to use ACES5 typeface
 - Mission Slides updated to use ACES5 typeface
 
 ##[1.11.0] 7/15/2019

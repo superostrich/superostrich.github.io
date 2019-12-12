@@ -2,6 +2,16 @@ Ace Combat X2 Joint Assault - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog
+##[1.10.0] 12/12/2019
+###Added 
+- High resolution operator portraits
+- Replacement font for users with PSP fonts installed in PPSSPP
+### Changed
+- Re-drawn 2048px HUD texture
+- Menu & HUD fontsheets remade using ACES5 font by ElectronicOldMen
+- Re-done PPSSPP system font replacement
+- Title screen 'press start' updated to use ACES5 typeface
+- Detail touchups on Typhoon, F-1, F-35, Gripen, Mirage 2000D, and Rafale
 
 ##[1.05.0] 7/15/2019
 ###Added
@@ -9,7 +19,7 @@ https://superostrich.xyz
 
 ##[1.04.2] 5/12/2019
 ###Changed
-- Added lakes to map of Western USA
+- Adjusted map of Western USA
 - Fixed missing brackets in system font
 
 ##[1.04.1] 3/26/2019
