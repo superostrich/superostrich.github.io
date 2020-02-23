@@ -2,19 +2,40 @@ Ace Combat X - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog 
+##[1.21.0] 2/23/2020
+###Added
+- New HUD icons for targets & objectives (all missions)
+- New Enemy XC-01 Texture
+- New Enemy B-52 Texture
+- New Neutralizer Bomb texture
+###Changed 
+- Fixed issue that prevented HD hangar texture from loading
+- Adjusted alpha channel on HD hangar texture
+- F-5E (all skins) corrected formation light position to match the lighting effect position
+- X-29 AUR,LES,SP1 corrected misaligned details and paint
+- X-29 SP2 livery re-made from scratch
+- F-2 (all skins) fixed bug, misaligned nav lights
+- YR-99 (all skins) fixed bug, misaligned fuselage texture
+- Su-27 (all skins) improved inlet details
+- Su-37 (all skins) improved inlet details, fixed missing refueling probe texture
+- F-4E SP1 corrected miscolored tires
+- Typhoon & X-02 (all skins) removed scaling artifacts on tires
+- F-16XL (all skins) improved drag chute
+
+
 ##[1.20.1] 12/12/2019
 ###Changed
-- Adjusted several characters in game font sheets
+- Adjusted several characters on game font sheets
 - Corrected formation light position on Rafale M to match the lighting effect position.
 
 ##[1.20.0] 12/8/2019
 ###Added
-- Replacement font for users with PSP fonts installed in PPSSPP
+- Replacement system font for users with PSP fonts installed in PPSSPP
 ###Changed
-- Re-drawn 2048px HUD texture
+- Re-drawn 2048px HUD texture, with all symbology re-drawn from scratch 
 - Menu & HUD fontsheets remade using ACES5 font by ElectronicOldMen
 - Re-done PPSSPP system font replacement
-- All player aircraft textures updated using re-drawn roundels/emblems
+- All player aircraft textures updated with new roundel & gryphus emblem sourced from Ace Combat 7 
 - Title screen 'press start' updated to use ACES5 typeface
 - Mission Slides updated to use ACES5 typeface
 
