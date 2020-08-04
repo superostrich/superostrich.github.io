@@ -2,11 +2,22 @@ Ace Combat X2 Joint Assault - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog
+##[1.11.0] 8/4/2020
+###Added
+- New 256px emblems
+###Changed
+- Fixed issue that would prevent operator portraits from loading under some conditions
+- New operator portraits sourced from official website
+- New HUD icons for targets & objectives (all missions)
+- New KC-10 texture
+- New E-767 texture
+
+
 ##[1.10.0] 12/12/2019
 ###Added 
 - High resolution operator portraits
 - Replacement font for users with PSP fonts installed in PPSSPP
-### Changed
+###Changed
 - Re-drawn 2048px HUD texture
 - Menu & HUD fontsheets remade using ACES5 font by ElectronicOldMen
 - Re-done PPSSPP system font replacement
