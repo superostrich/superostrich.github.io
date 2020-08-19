@@ -2,6 +2,16 @@ Ace Combat X2 Joint Assault - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog
+##[1.11.1] 8//2020
+###Added
+- Campaign stage select map for  map (thanks @wells_ink for map transform!)
+###Changed
+- Added higher quality,600px, operator portraits sourced from 4Gamer.net preview (https://www.4gamer.net/games/106/G010603/20100514049/)
+- Adjusted menu opacity, fixed window-corners for Military ID screen
+- Improved UPG portrait of Leblanc in Mission 8
+- Adjusted bullseye & arrow size on stage select maps
+- Added HD 747-200 textures for Mission 15 multiplayer cutscenes
+
 ##[1.11.0] 8/4/2020
 ###Added
 - New 256px emblems
@@ -11,7 +21,6 @@ https://superostrich.xyz
 - New HUD icons for targets & objectives (all missions)
 - New KC-10 texture
 - New E-767 texture
-
 
 ##[1.10.0] 12/12/2019
 ###Added 
