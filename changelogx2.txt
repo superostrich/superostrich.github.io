@@ -1,6 +1,22 @@
 Ace Combat X2 Joint Assault - HD Texture Pack
 https://superostrich.xyz
 
+#Changelog
+##[1.12.0] 8/22/2020
+###Added
+- Campaign stage select map for Europe (thanks @wells_ink for map transform!)
+- 747-200 now uses high resolution textures for Mission 15 multiplayer cutscenes
+- New HUD target/objective icons for mission 5B, 12B, 21B
+- New HUD icons for allied players in co-op mode
+###Changed
+- Fixed F-15S/MTD engine-nozzle alpha channel
+- Higher quality (600px) operator portraits
+- Adjusted menu opacity, fixed window-corners for 'Military ID'
+- Adjusted bullseye & arrow size on stage select maps
+- Improved 747-200 Hangar
+- Improved UPG icon in Mission 8
+- Improved UPG & Target icons in Mission SP2
+
 
 ##[1.11.0] 8/4/2020
 ###Added
@@ -8,7 +24,7 @@ https://superostrich.xyz
 ###Changed
 - Fixed issue that would prevent operator portraits from loading under some conditions
 - New operator portraits sourced from official website
-- New HUD icons for targets & objectives (all missions)
+- New HUD target/objective icons for single player missions
 - New KC-10 texture
 - New E-767 texture
 
