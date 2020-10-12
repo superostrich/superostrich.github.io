@@ -1,7 +1,15 @@
 Ace Combat X - HD Texture Pack
 https://superostrich.xyz
 
-
+#Changelog
+##[1.21.1] 10/12/2020
+###Added
+- Partial support for the August 2006 Prototype (https://hiddenpalace.org/Ace_Combat_X:_Skies_of_Deception_(Aug_1,_2006_prototype))
+- New minigame KC-10 texture
+- New enemy E-767 texture
+###Changed
+- Fixed bug, Gripen color slot mis-match
+- Fixed bug, F-35 color slot mis-match
 
 #Changelog 
 ##[1.21.0] 2/23/2020
