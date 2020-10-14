@@ -47,10 +47,10 @@ CHAR <Player Aircraft>
 03 - F-14 Tomcat
 04 - Rafale
 05 - F-16 Fighting Falcon
-06 - F-16XL Strike Falcon
+06 - F-16XL
 07 - F-117 Nighthawk
-08 - F-35 Lightning
-09 - FB-22 Strike Raptor
+08 - F-35 Lightning II
+09 - FB-22
 10 - JA-37 Viggen
 11 - F-4 Phantom
 12 - F-15 Strike Eagle
@@ -64,7 +64,7 @@ CHAR <Player Aircraft>
 20 - MiG-21 Fishbed
 21 - MiG-1.44 Flatpack
 22 - F-2A Viper Zero
-23 - F-1 Reisen
+23 - F-1 Supersonic Reisen
 24 - XFA-24 Apalus
 25 - YR-302 Fregata
 26 - YR-99 Forneus
