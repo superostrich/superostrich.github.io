@@ -2,10 +2,6 @@ Ace Combat X - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog
-##[1.21.2] 10/6/2021
-###Added
-- System font replacement for PPSSPP 1.11+
-
 ##[1.21.1] 10/12/2020
 ###Added
 - Partial support for the August 2006 Prototype (https://hiddenpalace.org/Ace_Combat_X:_Skies_of_Deception_(Aug_1,_2006_prototype))

@@ -2,10 +2,6 @@ Ace Combat X² Joint Assault - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog
-##[1.12.1] 10/6/2021
-###Added
-- System font replacement for PPSSPP 1.11+
-
 ##[1.12.0] 8/22/2020
 ###Added
 - Campaign stage select map for Europe (thanks @wells_ink for map transform!)
