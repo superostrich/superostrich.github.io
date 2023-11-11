@@ -1,5 +1,11 @@
 Ace Combat 3D - HD Texture Pack
 https://superostrich.xyz
 
+##[0.9.1b] - 11/11/2023
+###Added
+- pack.json 
+###Changed
+-New enemy squadron emblems
+
 ##[0.9b] - 8/31/2020
 ### Initial Test Release
