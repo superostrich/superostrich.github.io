@@ -1,6 +1,10 @@
 Ace Combat 3D - HD Texture Pack
 https://superostrich.xyz
 
+##[0.9.2b] - 11/18/2023
+###Changed
+-Fixed pack.json
+
 ##[0.9.1b] - 11/11/2023
 ###Added
 - pack.json 
