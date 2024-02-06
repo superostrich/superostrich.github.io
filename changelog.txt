@@ -2,6 +2,20 @@ Ace Combat X - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog
+##[2.00] 2/6/2024
+###Changed
+-Texture format changed to KTX2
+-New replacements for PPSSPP system font
+-All playable aircraft textures re-made, native 1024px
+-Adjusted RCL texture
+-Updated NPC B-52, XC-01, E-767 textures
+-New Ninox & Aquila NPC textures
+###Added
+-AV8B NPC textures
+###Removed
+-Ship textures (for now)
+
+#Changelog
 ##[1.21.1] 10/12/2020
 ###Added
 - Partial support for the August 2006 Prototype (https://hiddenpalace.org/Ace_Combat_X:_Skies_of_Deception_(Aug_1,_2006_prototype))
