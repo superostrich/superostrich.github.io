@@ -2,6 +2,7 @@ Ace Combat X - HD Texture Pack
 https://superostrich.xyz
 
 #Changelog
+
 ##[2.00] 2/6/2024
 ###Changed
 -Texture format changed to KTX2
@@ -15,7 +16,6 @@ https://superostrich.xyz
 ###Removed
 -Ship textures (for now)
 
-#Changelog
 ##[1.21.1] 10/12/2020
 ###Added
 - Partial support for the August 2006 Prototype (https://hiddenpalace.org/Ace_Combat_X:_Skies_of_Deception_(Aug_1,_2006_prototype))
@@ -25,7 +25,6 @@ https://superostrich.xyz
 - Fixed bug, Gripen color slot mis-match
 - Fixed bug, F-35 color slot mis-match
 
-#Changelog 
 ##[1.21.0] 2/23/2020
 ###Added
 - New HUD icons for targets & objectives (all missions)
