@@ -3,7 +3,11 @@ https://superostrich.xyz
 
 #Changelog
 
-##[2.00] 2/6/2024
+##[2.0.1] 2/7/2024
+###Changed
+-Fix bug that prevented Apalus HUD icon from loading 
+
+##[2.0.0] 2/6/2024
 ###Changed
 -Texture format changed to KTX2
 -New replacements for PPSSPP system font
