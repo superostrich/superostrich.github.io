@@ -1,12 +1,21 @@
 Ace Combat X - HD Texture Pack
 https://superostrich.xyz
-v2.0.1
+v2.0.2
 
 #Changelog
 
+##[2.0.2] 2/11/2024
+###Added
+-Cruiser (Hatakaze-class destroyer) texture for Mission 6A cutscene
+###Changed
+-Improved Apache target icon
+-Improved MPG icons (landing ships, train, ally/enemy tanks, ally fleet)
+-Adjusted Viggen SP2 paint to more closely resemble Blå Petter livery it's based on
+-Adjusted afterburner flame effect
+
 ##[2.0.1] 2/7/2024
 ###Changed
--Fix bug that prevented Apalus HUD icon from loading 
+-Fixed bug that prevented Apalus HUD icon from loading 
 
 ##[2.0.0] 2/6/2024
 ###Changed
@@ -19,7 +28,7 @@ v2.0.1
 ###Added
 -AV8B NPC textures
 ###Removed
--Ship textures (for now)
+-Ships textures (for now)
 
 ##[1.21.1] 10/12/2020
 ###Added
