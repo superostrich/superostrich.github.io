@@ -7,6 +7,7 @@ v2.0.2
 ##[2.0.2] 2/11/2024
 ###Added
 -Cruiser (Hatakaze-class destroyer) texture for Mission 6A cutscene
+-Texture for mod-categories in Hangar
 ###Changed
 -Improved Apache target icon
 -Improved MPG icons (landing ships, train, ally/enemy tanks, ally fleet)
