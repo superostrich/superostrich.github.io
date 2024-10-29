@@ -1,21 +1,9 @@
 Ace Combat X - HD Texture Pack
 https://superostrich.xyz
-v2.0.4
+v2.0.3
 
 #Changelog
 
-##[2.0.4] 
-###Added
-- Landing Ship (San Giorgio-class) Texture
-- Ageis (Ticonderoga-class) Texture
-- Cargo Ship Texture
-- XFA-33 Alect NPC Texture
-- S-32 Alect NPC Texture
-###Changed
-- Cariburn improved weathering
-- Phantom II fixed incorrectly aligned wing roundels
-- Tiger II adjusted plackards, fixed incorrect orientation of tail text on SP2 skin
-- Griswal Buildings, Gaius Tower, and Atmos Ring textures improved
 
 ##[2.0.3] 2/18/2024
 ###Changed
