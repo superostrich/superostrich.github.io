@@ -4,7 +4,7 @@ v2.0.4
 
 #Changelog
 
-##[2.0.4] 1/5/2025
+##[2.0.4] 1/6/2025
 ###Added
 - Landing Ship (San Giorgio-class) Texture
 - Ageis (Ticonderoga-class) Texture
