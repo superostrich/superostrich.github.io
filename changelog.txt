@@ -1,9 +1,21 @@
 Ace Combat X - HD Texture Pack
 https://superostrich.xyz
-v2.0.3
+v2.0.4
 
 #Changelog
 
+##[2.0.4] 1/5/2025
+###Added
+- Landing Ship (San Giorgio-class) Texture
+- Ageis (Ticonderoga-class) Texture
+- Container Ship Texture
+- XFA-33 Alect NPC Texture
+- S-32 Alect NPC Texture
+###Changed
+- Cariburn improved weathering
+- Phantom II fixed incorrectly aligned wing roundels
+- Tiger II adjusted plackards, fixed incorrect orientation of tail text on SP2 skin
+- Griswal Buildings, Gaius Tower, and Atmos Ring textures improved
 
 ##[2.0.3] 2/18/2024
 ###Changed
@@ -18,7 +30,7 @@ v2.0.3
 ###Changed
 - Improved Apache target icon
 - Improved MPG icons (landing ships, train, ally/enemy tanks, ally fleet)
-- Adjusted Viggen SP2 paint to more closely resemble Blå Petter livery it's based on
+- Adjusted Viggen SP2 paint to more closely resemble Blå Petter
 - Adjusted afterburner flame effect
 
 ##[2.0.1] 2/7/2024
