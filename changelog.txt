@@ -18,14 +18,14 @@ v2.0.5
 ###Changed
 - Cariburn improved weathering
 - Phantom II fixed incorrectly aligned wing roundels
-- Tiger II adjusted plackards, fixed incorrect orientation of tail text on SP2 skin
-- Griswal Buildings, Gaius Tower, and Atmos Ring textures improved
+- Tiger II adjusted placards, fixed incorrect orientation of tail text on SP2 skin
+- Griswall Buildings, Gaius Tower, and Atmos Ring textures improved
 
 ##[2.0.3] 2/18/2024
 ###Changed
 - Super Hornet ECS vents changed to block 28+ 
 - Tornado F3 details adjusted, fixed missing numbers on Skin 1
-- Port patterson scenery alpha channel adjusted
+- Port Patterson scenery alpha channel adjusted
 
 ##[2.0.2] 2/11/2024
 ###Added
