@@ -1,8 +1,12 @@
 Ace Combat X - HD Texture Pack
 https://superostrich.xyz
-v2.0.4
+v2.0.5
 
 #Changelog
+
+##[2.0.5] 1/12/2025
+###Changed
+- Zip file is now uncompressed (faster loading for auto-install)
 
 ##[2.0.4] 1/6/2025
 ###Added
