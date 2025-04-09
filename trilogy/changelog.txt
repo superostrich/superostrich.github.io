@@ -2,7 +2,7 @@ Ace Combat Trilogy HUD Upgrade
 https://superostrich.xyz
 v1.00
 
-#Changelog
+#Changelog 
 
 ##[1.00] 4/9/2025
 ###
