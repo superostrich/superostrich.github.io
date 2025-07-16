@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Ace Combat 7 modding guides and resources">
+    <meta name="author" content="">
+
+    <title>Ace Combat 7 - Modding Guides & Resources</title>
+
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="vendor/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/blogstyle.css" rel="stylesheet">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PBPKD6FY8R"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-PBPKD6FY8R');
+	</script>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<a class="navbar-brand" href="index.html">
+			<img src="brand.png" alt="SuperOstrich" style="width:40px;">
+		</a>
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link" href="acx.html">Ace Combat X</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="acx2.html">Ace Combat X2:JA</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="ac3d.html">Ace Combat 3D</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="trilogy.html">Ace Combat Trilogy</a>
+			</li>
+			<li class="nav-item active">
+			  <a class="nav-link" href="#">Ace Combat 7</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="pw.html">Project Wingman</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="extras.html">PSP Extras</a>
+			</li>
+		  </ul>
+		</nav>
+
+    <!-- Page Content --> 
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Post Content Column -->
+        <div class="col-md-8">
+
+          <!-- Title -->
+          <h1 class="mt-4">
+		  <!-- Preview Image -->
+          <img class="img-fluid rounded" src="banner7-short.jpg" alt="Ace Combat 7 Modding Guide & Texture Mods">
+		  </h1>
+
+          <hr>
+          <!-- Post Content -->
+		  
+		  <p>
+		  <h3 id="index">Index</h3>
+		  <ol>
+		  	<li><a href="#guides">Ace Combat 7 Modding Guides</a>
+		  	<li><a href="#resources">Modding Resources</a>
+			<li><a href="#mods">Ostrich's Texture Mods</a>
+			<li><a href="#acknowledgements">Acknowledgements</a>
+		  </ol>
+		  </p>
+		  
+		  <hr id="guides">
+
+		  <h3>Ace Combat 7 Modding Guides</h3>
+		  <p>
+		  <img class="img-fluid" src="blender.jpg" alt="">
+		  </p>
+		  <p>
+		  <h4><a href="https://docs.google.com/document/d/1txRB1OZMyArQbmVtTVFnVy-0sAr6eQYDFBhcKnvc49s/mobilebasic">Texture Replacement Guide using UE4 Editor</a>
+		  <small>by <a href="https://twitter.com/DapperDapperDan">Dantofu</a></small></h4>
+		  This tutorial covers texture replacement using Unreal Engine 4.  This process preserves the lowest mipmap level, allows you to use custom MREC in all skin slots, and enables the use of high quality BC7 texture compression.  For best results, use this method. 
+		  </p>
+		  
+		  <h4><a href="https://docs.google.com/document/d/1oMtmiMd6hhvDSZnZX80OyZqYEbrls6FzYaNL0PEIelE/mobilebasic">Material Instance Usage Manual</a>
+		  <small>by <a href="https://twitter.com/DapperDapperDan">Dantofu</a></small></h4>
+		  This advanced manual covers how to create and modify material instance settings, assign unique texture filepaths per-skin, and customize emissive effects. 
+		  </p>
+		  
+		  <h4><a href="https://docs.google.com/document/d/14JYUC-SUSIpYYaYtIZFWWtFcj_SYeUAs-rZR23yj4FM/mobilebasic">Permanent Emissive Guide </a>
+		  <small>by <a href="https://twitter.com/Agnus_Dei9">Megalith</a></small></h4>
+		  This guide covers adding glowing parts to aircraft skins that stay lit at all times, not just during refueling & landing sequences. 
+		  </p>
+		  
+		  <p>
+		  <h4><a href="https://docs.google.com/document/d/1Utk1WAR6ubpZmtuCoZfK6dR8cDZbXznRTRiR95jRtLA/mobilebasic">Texture Replacement Guide using Python Scripts</a></h4>
+		  This basic texture replacement method uses a simple tool-set comprised of portable apps and python scripts.   This is useful for rapidly iterating and testing your textures in-game, since the entire process can be scripted.   If you have a basic understanding of windows batch scripts you can convert, pack, and install your WIP texture mod in one-click. 
+		  </p>
+		  
+		  <p>
+		  <h4><a href="https://docs.google.com/document/d/1wcY4sdqI_8s9dqYGpbKh_O0vr6dB_uVElbgnL_hoGLU/mobilebasic">Editing DXT5 MREC Textures in GIMP</a></h4>
+		  This guide outlines how to deal with DXT5 RGB+A textures in GIMP.  It covers removing the alpha channel prior to editing, and re-adding it in preparation for packing into your mod file. 
+		  </p>
+		  
+		  <p>
+		  <h4><a href="https://docs.google.com/document/d/1_xZKiItXj5uQxKdW1mjAUgl2rIa44s34bIa1EOV1AEU/mobilebasic">Blender Quick Start</a></h4>
+		  This guide covers using Blender to preview & edit your textures on 3D models, as well as ripping models using Ninjaripper.  Regardless of which guide you use for texture replacement, you'll want to get familiar with using Blender to assist you in texture editing and previewing your edits. 
+		  </p>
+		  
+		  <p>
+		  <h4><a href="https://docs.google.com/document/d/1G5f5kNUgEPRdsaBcC4LQM2lmc_mFWCeZJJ-ku4Y9vMw/mobilebasic">Character Portrait Replacement Guide</a>
+		  <small>by <a href="https://twitter.com/itsabigmaze">Calamitous</a></small></h4>
+		  This guide covers replacing character portrats using UE4, includes links to a PSD template and the required font.  Since the guide assumes the user is familar with UE4 baking; you should familairize yourself with the <a href="https://docs.google.com/document/d/1txRB1OZMyArQbmVtTVFnVy-0sAr6eQYDFBhcKnvc49s/mobilebasic">UE4 Texture Replacement Guide</a> first.  GIMP users should use <a href="https://mega.nz/#!ryw1UAxQ!b4GRzyMgR5i-kV4pKdC-v3TCGPVOmb5vYt9TgNlyH_0">this template</a> rather than the provided PSD.    
+		  </p>		  
+		  
+		  <hr  id="resources">
+		  
+		  <h3>Resources</h3>
+		  
+		  <p>
+		  <h4><a href="https://www.moddb.com/mods/codename-vanilla-acecombat7">Codename Vanilla</a></h4>
+		  Community made repository of blank, layered, diffuse texture templates for AC7 aircraft.
+		  </p>
+		  
+		  <p>
+		  <h4><a href="https://acmi.modding.app/">ACMI (AC7 Mod Installer Creator)</a></h4>
+		  Semi-automated packing tool by <a href="https://twitter.com/agc93">acg93</a> that drastically reduces the number of steps involved in packing your cooked assets into a PAK file for distribution. 
+		  </p>
+		  
+		  
+		  <p>
+		  <h4><a href="https://drive.google.com/file/d/1crBHGwxOil6IgXtaG8w5Ytoh_Auim08B">AC7 Mod Tool</a></h4>
+		  Tool by <a href="https://twitter.com/lotsbiss/">lotsbiss</a> that allows for opening PAK files, replacing the content within, and re-packaging. 
+		  </p>
+		  
+		  <p>
+		  <h4><a href="https://framedsc.github.io/GeneralGuides/universal_ue4_consoleunlocker.htm">Universal Unreal Engine 4 Unlocker</a></h4>
+		  This tool allows you to freely move the camera around, change depth of field, freeze time, remove the HUD, and enable supersampling; all on-the-fly.  Indespensible for taking screenshots.  
+		  </p>
+		  
+		  <p>
+		  <h4><a href="https://www.moddb.com/mods/aces-typografics">ACES Typografics</a></h4>
+		  A collection of high quality, painstakingly researched, Military & Ace Combat related fonts by Roach Typografics.  
+		  </p> 		  
+		  
+		  <h4 id="links">Useful Links</h4>
+		  
+		  <p>
+		  <UL>
+			  <li><a href="https://www.tailormadedecals.com/lng/en/decals/jets/">Tailor Made Decals</a> - An online store that specializes in high quality model decals. An excellent reference for small details on aircraft like maintenance, warning, and rescue placards. 
+			  <li><a href="https://www.1999.co.jp/eng/">1999.co.jp</a> - This online hobby shop frequently includes scans of the instructions for the aircraft models they sell; these make excellent paint-guides for recreaing liveries.
+			  <li><a href="https://www.largescaleplanes.com/reviews/">Large Scale Planes</a> - Review site for large-scale model aircraft.  Most reviews include high resolution scans of decals and instruction sheets. 
+			  <li><a href="https://www.scalenews.de/category/referenzen/walkaround/aircraft-walkarounds/">Scale News</a> Very high quality aircraft walkaround galleries, featuring many close-up photos of hatches, service bays, maintenance placards, etc.  
+			  <li><a href="http://www.primeportal.net/the_airstrip.htm">Prime Portal</a> - Scale modeller resource site, featuring many walkaround photos galleries of military aircraft.
+			  <li><a href="https://www.net-maquettes.com/pictures/">Net-Maquettes</a> - A massive collection of walkaround galleries of aircraft from all over the world on static display, and in museums.
+			  <li>Mariusz Wojciechowski's <a href="http://www.mig.mariwoj.pl/">Fulcrum</a> and <a href="http://www.sukhoi.mariwoj.pl/">Flanker</a> pages.  Comprehensive catalog of liveries worn by Fulcrums and Flankers, featuring full-color 3-view diagrams. 
+			  <li><a href="everyspec.com/MIL-STD/MIL-STD-2000-2999/download.php?spec=MIL-STD-2161C.049692.pdf">MIL-STD-2161C</a> - Department of Defense manual covering paint schemes & exterior markings for US Navy and Marine Corps aircraft.  Ever wonder what all those yellow & red markings & symbols on western planes are?   Wonder no more. 
+		  </UL>
+		  </p>
+		  
+		  
+		  
+		  
+		  
+		  
+		  <hr  id="mods">
+		  
+		  <h3>Ostrich's Texture Mods</h3>
+		  
+		  <p>
+			All of my texture mods can now be found on ModDB; <a href="https://www.moddb.com/members/superostrich/addons?filter=t&game=47754">https://www.moddb.com/members/superostrich/addons</a>  
+		  </p>
+		
+			<div class="container">
+			<div class="col">
+			<div class="row text-center text-lg-left"><!--Screenshots-->
+				<div class="col-md-4 col-xs-6 px-0">
+				  <a href="screenshots-ac7/classique2k.jpg" class="d-block mb-3 h-200">
+					<img class="img-fluid" src="screenshots-ac7/classique2k.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-md-4 col-xs-6 px-0">
+				  <a href="screenshots-ac7/knight29.jpg" class="d-block mb-3 h-200">
+					<img class="img-fluid" src="screenshots-ac7/knight29.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-md-4 col-xs-6 px-0">
+				  <a href="screenshots-ac7/mass23.jpg" class="d-block mb-3 h-200">
+					<img class="img-fluid" src="screenshots-ac7/mass23.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-md-4 col-xs-6 px-0">
+				  <a href="screenshots-ac7/mickey14.jpg" class="d-block mb-3 h-200">
+					<img class="img-fluid" src="screenshots-ac7/mickey14.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-md-4 col-xs-6 px-0">
+				  <a href="screenshots-ac7/phoenix33.jpg" class="d-block mb-3 h-200">
+					<img class="img-fluid" src="screenshots-ac7/phoenix33.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-md-4 col-xs-6 px-0">
+				  <a href="screenshots-ac7/razorback117.jpg" class="d-block mb-3 h-200">
+					<img class="img-fluid" src="screenshots-ac7/razorback117.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-md-4 col-xs-6 px-0">
+				  <a href="screenshots-ac7/rusalka.jpg" class="d-block mb-3 h-200">
+					<img class="img-fluid" src="screenshots-ac7/rusalka.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-md-4 col-xs-6 px-0">
+				  <a href="screenshots-ac7/strigon33.jpg" class="d-block mb-3 h-200">
+					<img class="img-fluid" src="screenshots-ac7/strigon33.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-md-4 col-xs-6 px-0">
+				  <a href="screenshots-ac7/upeo29.jpg" class="d-block mb-3 h-200">
+					<img class="img-fluid" src="screenshots-ac7/upeo29.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-md-4 col-xs-6 px-0">
+				  <a href="screenshots-ac7/mr2k-experimental.jpg" class="d-block mb-3 h-200">
+					<img class="img-fluid" src="screenshots-ac7/mr2k-experimental.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-md-4 col-xs-6 px-0">
+				  <a href="screenshots-ac7/gripen-viggen.jpg" class="d-block mb-3 h-200">
+					<img class="img-fluid" src="screenshots-ac7/gripen-viggen.jpg" alt="">
+				  </a>
+				</div>
+				<div class="col-md-4 col-xs-6 px-0">
+				  <a href="screenshots-ac7/asfx-ridgebacks.jpg" class="d-block mb-3 h-200">
+					<img class="img-fluid" src="screenshots-ac7/asfx-ridgebacks.jpg" alt="">
+				  </a>
+				</div>
+				
+			</div><!--Screenshots-->  
+			</div>
+			</div>
+		  
+		  <hr id="acknowledgements">
+		  
+		  <h3>Acknowledgements</h3>
+
+		  <p>
+		   Special thanks to <a href="https://twitter.com/VDINST_Rythus">@VDINST_Rythus</a> for his research on Ace Combat 7 modding, and for helping me overcome technical hurdles. And to <a href="https://twitter.com/DapperDapperDan">@DapperDapperDan</a> for compiling the first comprehensive texture replacement <a href="https://imgur.com/a/6scAGXP">guide</a>. 
+		  </p><br>
+		  <p><a href="#index">Back to Top</a></p>
+		  
+        </div><!--End Content Column --> 
+
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+
+
+          <!-- Contact Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">Interact</h5>
+            <div class="card-body">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="https://twitter.com/superostrich">
+					  <img src="twitter.png" class="img-responsive" height="30" alt="">
+					  Twitter
+					  </a>
+                    </li>
+					<hr>
+                    <li>
+                      <a href="https://twitch.tv/sostrich">
+					  <img src="twitch.png" class="img-responsive" height="30" alt="">
+					  Twitch
+					  </a>
+                    </li>
+                  </ul>
+            </div>
+          </div>
+		  <!-- End Contact Widget -->
+		  
+          <!-- Contact Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">Support</h5>
+            <div class="card-body">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="http://ko-fi.com/ostrich">
+					  <img src="ko-fi.png" class="img-responsive" height="30" alt="">
+					  ko-fi.com/ostrich
+					  </a>
+                    </li>
+					<hr>
+					<li>
+					  <img src="btc.png" class="img-responsive" height="30" alt="">
+					  tip bitcoin
+						[<a href="javascript:showhide('qr')">show QR</a>]<br>
+						  <div id="qr" class="collapse">
+							<a href="btcaddress.png">
+							<img class="card-img-top" src="btcaddress-small.png">
+							</a>
+						</div>
+					  <small>bc1qlq0j2kxrl2qy40a3d9fr07nc5mcl93a7460uk4</small>
+					  </a>
+                    </li>
+                  </ul>
+
+            </div>
+          </div>
+		  <!-- End Contact Widget -->
+		  
+
+
+
+		  <!-- Ad Widget -->
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- Side-Responsive -->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-3643793906397040"
+				 data-ad-slot="6660918839"
+				 data-ad-format="auto"
+				 data-full-width-responsive="true"></ins>
+			<script>
+				 (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		  <!-- End Ad --> 
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-3 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+		<a href="bush.png">
+		<img src="bush.png" class="img-responsive" height="30" alt="">
+		</a>
+		</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+	<script>
+	     function showhide(id) {
+       	var e = document.getElementById(id);
+       	e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+     }
+	</script>
+
+  </body>
+
+</html>

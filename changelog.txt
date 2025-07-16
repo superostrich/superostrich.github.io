@@ -1,0 +1,228 @@
+Ace Combat X - HD Texture Pack
+https://ostrichmods.com
+v2.0.6
+
+#Changelog
+
+##[2.0.6] 6/18/2025
+###Changed
+- Fenrir - all skins, texture decals reworked
+- MiG-31 - skin 2, corrected canopy frame color
+- F-15E - skin 4, orange paint re-drawn
+- F/A-18E - skin 1 ~ 3, corrected tail number
+- Typhoon - all skins, improved stencils, corrected orientation of side roundels
+
+##[2.0.5] 1/12/2025
+###Changed
+- Zip file is now uncompressed (faster loading for auto-install)
+
+##[2.0.4] 1/6/2025
+###Added
+- Landing Ship (San Giorgio-class) Texture
+- Ageis (Ticonderoga-class) Texture
+- Container Ship Texture
+- XFA-33 Alect NPC Texture
+- S-32 Alect NPC Texture
+###Changed
+- Cariburn improved weathering
+- Phantom II fixed incorrectly aligned wing roundels
+- Tiger II adjusted placards, fixed incorrect orientation of tail text on SP2 skin
+- Griswall Buildings, Gaius Tower, and Atmos Ring textures improved
+
+##[2.0.3] 2/18/2024
+###Changed
+- Super Hornet ECS vents changed to block 28+ 
+- Tornado F3 details adjusted, fixed missing numbers on Skin 1
+- Port Patterson scenery alpha channel adjusted
+
+##[2.0.2] 2/11/2024
+###Added
+- Cruiser (Hatakaze-class) texture for Mission 6A cutscene
+- Texture for parts-category icons in Hangar
+###Changed
+- Improved Apache target icon
+- Improved MPG icons (landing ships, train, ally/enemy tanks, ally fleet)
+- Adjusted Viggen SP2 paint to more closely resemble Blå Petter
+- Adjusted afterburner flame effect
+
+##[2.0.1] 2/7/2024
+###Changed
+- Fixed bug that prevented Apalus HUD icon from loading 
+
+##[2.0.0] 2/6/2024
+###Changed
+- Texture format changed to KTX2 (except player aircraft, and effects)
+- New replacements for PPSSPP system font
+- All playable aircraft textures re-made, native 1024px
+- Adjusted RCL texture
+- Updated NPC B-52, XC-01, E-767 textures
+- New Ninox & Aquila NPC textures
+###Added
+- AV8B NPC textures
+###Removed
+- Ships textures (for now)
+
+##[1.21.1] 10/12/2020
+###Added
+- Partial support for the August 2006 Prototype (https://hiddenpalace.org/Ace_Combat_X:_Skies_of_Deception_(Aug_1,_2006_prototype))
+- New minigame KC-10 texture
+- New enemy E-767 texture
+###Changed
+- Fixed bug, Gripen color slot mis-match
+- Fixed bug, F-35 color slot mis-match
+
+##[1.21.0] 2/23/2020
+###Added
+- New HUD icons for targets & objectives (all missions)
+- New Enemy XC-01 Texture
+- New Enemy B-52 Texture
+- New Neutralizer Bomb texture
+###Changed 
+- Fixed issue that prevented HD hangar texture from loading
+- Adjusted alpha channel on HD hangar texture
+- F-5E (all skins) corrected formation light position to match the lighting effect position
+- X-29 AUR,LES,SP1 corrected misaligned details and paint
+- X-29 SP2 livery re-made from scratch
+- F-2 (all skins) fixed bug, misaligned nav lights
+- YR-99 (all skins) fixed bug, misaligned fuselage texture
+- Su-27 (all skins) improved inlet details
+- Su-37 (all skins) improved inlet details, fixed missing refueling probe texture
+- F-4E SP1 corrected miscolored tires
+- Typhoon & X-02 (all skins) removed scaling artifacts on tires
+- F-16XL (all skins) improved drag chute
+
+
+##[1.20.1] 12/12/2019
+###Changed
+- Adjusted several characters on game font sheets
+- Corrected formation light position on Rafale M to match the lighting effect position.
+
+##[1.20.0] 12/8/2019
+###Added
+- Replacement system font for users with PSP fonts installed in PPSSPP
+###Changed
+- Re-drawn 2048px HUD texture, with all symbology re-drawn from scratch 
+- Menu & HUD fontsheets remade using ACES5 font by ElectronicOldMen
+- Re-done PPSSPP system font replacement
+- All player aircraft textures updated with new roundel & gryphus emblem sourced from Ace Combat 7 
+- Title screen 'press start' updated to use ACES5 typeface
+- Mission Slides updated to use ACES5 typeface
+
+##[1.11.0] 7/15/2019
+###Added
+- Support for Drag & Drop installation
+
+##[1.10.4] 6/17/2019
+###Changed
+- Minor cleanup on menu font textures
+- Detail and Lighting cleanup on ADF-01
+
+##[1.10.3] 5/12/2019
+###Changed
+- Adjusted light reflections on menu background
+- Fixed incorrect transparencies on destroyer 
+- Fixed strangely shaped J character in UX font
+
+##[1.10.2] 3/26/2019
+###Added
+- High resolution afterburner nozzle and effects
+- Tracer, muzzle flash, and bullet impact effects
+- Ground & water shockwave effects
+- Improved clouds
+- Support for effects add-on
+##Changed
+- Detail cleanup on F-2A
+
+##[1.10.1] 3/17/2019
+###Added
+- Moon texture
+###Changed
+- Re-done, free-mission select map
+- Adjustments to HUD font spacing
+- Fixed issue where MiG-21 status icon failed to load
+- Re-drawn Xbox and Playstation button prompts
+- Harmonized aircraft naming convention with the JA pack
+
+
+##[1.10] 3/5/2019
+###Added
+- New high resolution font for all menus
+- New window frames for menus
+- High resolution briefing maps, icons, and slides
+- New weapon previews
+- New in-game weapon textures
+- Upscaled in-game target & objective icons (WIP)
+###Changed
+- Re-drawn title screen
+- New naming convention for aircraft textures
+- Re-organized folder structure
+- Playstation buttons now included with base pack
+
+##[1.09] 1/31/2019
+###Added
+- New textures for weapon icons on HUD
+- New textures for player aircraft status icon on HUD
+###Changed
+- Fixed issue where under some conditions, high resolution title screen would fail to load
+- Fixed missing <<brackets>> in ppsspp system font
+
+##[1.08] 1/7/2019
+###Added
+- High resolution HUD
+- High resolution main menu font
+###Changed
+- Fixed missing refueling probe texture on MiG-21
+- Minor detail cleanup on F-2A
+- contents of /buttons/ moved to /interface/symbols
+
+##[1.07] 12/1/2018
+### Changed
+- Detail cleanup on Berkut Aurelia Color
+
+##[1.06] - 11/13/2018
+### Added
+- Replaced system font 
+- New textures for Nevera Jammer 
+### Changed
+- Minor detail cleanup on A-10A
+
+##[1.05] - 10/28/2018
+### Added
+- New textures for 3D objects in Port Patterson, Terminus Oil Facility, Griswal, and Archerlon Fortress
+- New textures for naval vessels
+- New title screens
+- Higher resolution briefing UX texture
+### Changed 
+- Fixed missing navigation lights on the F-15S/MTD
+- Fixed asymetrical details, and errant cockpit texture on the F-5E
+- Fixed issue with allied F-22 missing canopies
+- Fixed issue with allied F-4 incorrect decal positions
+
+##[1.04] - 10/22/2018
+### Added
+- HD texture for Gleipneir
+- Discreet 256px & 512px textures for Allied NPC aircraft that appear in Missions 01,12,&15;  located in \props\npc
+### Changed
+- Fixed an issse with F-22A textures that caused seat warning plackards to appear skewed in-game
+- Fixed an issue with MiG-29 SP2 color (fulcrum4.png) that caused the cockpit to appear grey instead of black 
+- Corrected intake details on Su-27 and Su-37 textures 
+- Cleaned up & de-duplicated INI file using wildcards 
+
+##[1.03] - 10/18/2018
+### Added
+- High resolution texture for the KC-10 in refueling sequences
+- High resolution textures for Kitty Hawk class carrier in landing seqences
+### Changed
+- Fixed a bug that prevented XBox button prompts from showing on replays 
+
+##[1.02] - 10/13/2018
+### Changed
+- Fixed a bug that prevented the Fregata SP2 Color texture (fregata4.png) from loading in-mission. 
+
+##[1.01] - 10/11/2018
+### Added 
+- Xbox controller button prompts to main pack
+
+##[1.00] - 10/11/2018
+### Initial Release
+
