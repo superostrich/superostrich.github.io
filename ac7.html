@@ -14,18 +14,6 @@
 
   <!-- CSS -->
   <link href="css/styles.css" rel="stylesheet">
-
-  <script>
-    (function () {
-      try {
-        const theme = localStorage.getItem('theme');
-        if (theme === 'light') {
-          document.documentElement.setAttribute('data-theme', 'light');
-        }
-      } catch (e) {}
-    })();
-  </script>
-
 </head>
 
   <!-- Google tag (gtag.js) -->
@@ -45,8 +33,17 @@
 <div class="layout">
   <input type="checkbox" id="menu-toggle" class="menu-toggle" />
   
-  <aside>
-    <div id="nav-container"></div>
+  <aside class="panel">
+    <nav class="panel-nav" id="nav-container">
+      <!-- imported nav HTML -->
+    </nav>
+
+    <div class="panel-footer">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <span class="toggle-option" data-theme-option="light">☀</span>
+        <span class="toggle-option" data-theme-option="dark">☾</span>
+      </button>
+    </div>
   </aside>
   
   <main>

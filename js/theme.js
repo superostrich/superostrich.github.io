@@ -1,8 +1,28 @@
+// ---- helpers ----
+function getTheme() {
+  return document.documentElement.getAttribute('data-theme') === 'light'
+    ? 'light'
+    : 'dark';
+}
+
+function setTheme(theme) {
+  if (theme === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+    localStorage.setItem('theme', 'light');
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.removeItem('theme');
+  }
+
+  updateThemeToggleUI(theme);
+}
+
+// ---- UI sync ----
 function updateThemeToggleUI(theme) {
   const toggle = document.getElementById('theme-toggle');
   if (!toggle) return;
 
-  toggle.classList.toggle('is-dark', theme === 'dark');
+  toggle.classList.toggle('is-light', theme === 'light');
 
   toggle.querySelectorAll('.toggle-option').forEach(option => {
     option.classList.toggle(
@@ -12,38 +32,21 @@ function updateThemeToggleUI(theme) {
   });
 }
 
+// ---- init ----
 document.addEventListener('DOMContentLoaded', () => {
-  const savedTheme = localStorage.getItem('theme');
+  // Apply saved preference (dark is default)
+  const savedTheme = localStorage.getItem('theme') === 'light'
+    ? 'light'
+    : 'dark';
 
-  if (savedTheme === 'light') {
-    document.documentElement.setAttribute('data-theme', 'light');
-    updateThemeToggleUI('light');
-  } else {
-    // dark is default
-    document.documentElement.removeAttribute('data-theme');
-    updateThemeToggleUI('dark');
-  }
+  setTheme(savedTheme);
 
-  // 🔑 THIS WAS MISSING
-  initThemeToggle();
-});
-
-function initThemeToggle() {
+  // Wire up toggle
   const toggle = document.getElementById('theme-toggle');
   if (!toggle) return;
 
   toggle.addEventListener('click', () => {
-    const currentTheme =
-      document.documentElement.getAttribute('data-theme') || 'dark';
-
-    if (currentTheme === 'dark') {
-      document.documentElement.setAttribute('data-theme', 'light');
-      localStorage.setItem('theme', 'light');
-      updateThemeToggleUI('light');
-    } else {
-      document.documentElement.removeAttribute('data-theme');
-      localStorage.removeItem('theme');
-      updateThemeToggleUI('dark');
-    }
+    const next = getTheme() === 'dark' ? 'light' : 'dark';
+    setTheme(next);
   });
-}
+});
