@@ -14,6 +14,18 @@
 
   <!-- CSS -->
   <link href="css/styles.css" rel="stylesheet">
+  
+  <script>
+    (function () {
+      try {
+        const theme = localStorage.getItem('theme');
+        if (theme === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (e) {}
+    })();
+  </script>
+  
 </head>
 
   <!-- Google tag (gtag.js) -->
@@ -25,6 +37,8 @@
 
     gtag('config', 'G-PBPKD6FY8R');
   </script>
+  
+
 
 <body>
 

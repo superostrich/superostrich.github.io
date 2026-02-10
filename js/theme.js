@@ -12,25 +12,38 @@ function updateThemeToggleUI(theme) {
   });
 }
 
-// Apply saved theme (works even before sidebar exists)
-const savedTheme = localStorage.getItem('theme') || 'light';
-document.documentElement.setAttribute('data-theme', savedTheme);
+document.addEventListener('DOMContentLoaded', () => {
+  const savedTheme = localStorage.getItem('theme');
 
-// Toggle on button click
+  if (savedTheme === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+    updateThemeToggleUI('light');
+  } else {
+    // dark is default
+    document.documentElement.removeAttribute('data-theme');
+    updateThemeToggleUI('dark');
+  }
+
+  // 🔑 THIS WAS MISSING
+  initThemeToggle();
+});
+
 function initThemeToggle() {
   const toggle = document.getElementById('theme-toggle');
   if (!toggle) return;
 
   toggle.addEventListener('click', () => {
-    const current =
-      document.documentElement.getAttribute('data-theme') === 'dark'
-        ? 'light'
-        : 'dark';
+    const currentTheme =
+      document.documentElement.getAttribute('data-theme') || 'dark';
 
-    document.documentElement.setAttribute('data-theme', current);
-    localStorage.setItem('theme', current);
-
-    // 👇 THIS is the key line
-    updateThemeToggleUI(current);
+    if (currentTheme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'light');
+      localStorage.setItem('theme', 'light');
+      updateThemeToggleUI('light');
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.removeItem('theme');
+      updateThemeToggleUI('dark');
+    }
   });
 }
