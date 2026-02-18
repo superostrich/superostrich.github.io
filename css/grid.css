@@ -57,3 +57,14 @@
   opacity: 0.8;
   margin: 0.5rem 0;
 }
+
+.card-focus {
+  outline: 3px solid var(--accent);
+  animation: pulse 1.5s ease-in-out 2;
+}
+
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
