@@ -37,7 +37,6 @@ function showOnlyCardFromURL() {
   document.querySelectorAll("#card-grid-csv .card").forEach(card => {
     if (card.dataset.id === cardId) {
       card.hidden = false;
-      card.classList.add("card-focus");
       found = true;
     } else {
       card.hidden = true;
