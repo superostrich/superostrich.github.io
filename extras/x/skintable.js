@@ -26,17 +26,25 @@ function applyFiltersFromURL() {
   applyFilters();
 }
 
-function focusCardFromURL() {
+function showOnlyCardFromURL() {
   const params = new URLSearchParams(window.location.search);
   const cardId = params.get("card");
 
-  if (!cardId) return;
+  if (!cardId) return false;
 
-  const card = document.querySelector(`.card[data-id="${cardId}"]`);
-  if (!card) return;
+  let found = false;
 
-  card.scrollIntoView({ behavior: "smooth", block: "center" });
-  card.classList.add("card-focus");
+  document.querySelectorAll("#card-grid-csv .card").forEach(card => {
+    if (card.dataset.id === cardId) {
+      card.hidden = false;
+      card.classList.add("card-focus");
+      found = true;
+    } else {
+      card.hidden = true;
+    }
+  });
+
+  return found;
 }
 
 function populateDropdown(id, datasetKey) {
@@ -147,8 +155,13 @@ async function loadCards(csvUrl) {
   });
   populateDropdown("filter-aircraft", "aircraft");
   populateDropdown("filter-faction", "faction");
-  applyFiltersFromURL(); 
-  focusCardFromURL(); 
+
+  const isolated = showOnlyCardFromURL();
+
+  if (!isolated) {
+    applyFiltersFromURL();
+  }
+
 }
 
 loadCards("extras/x/table.csv");
