@@ -26,6 +26,18 @@ function applyFiltersFromURL() {
   applyFilters();
 }
 
+function focusCardFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  const cardId = params.get("card");
+
+  if (!cardId) return;
+
+  const card = document.querySelector(`.card[data-id="${cardId}"]`);
+  if (!card) return;
+
+  card.scrollIntoView({ behavior: "smooth", block: "center" });
+  card.classList.add("card-focus");
+}
 
 function populateDropdown(id, datasetKey) {
   const select = document.getElementById(id);
@@ -102,12 +114,17 @@ async function loadCards(csvUrl) {
 
     const card = document.createElement("article");
     card.className = "card";
+    
+    // extract ID from download path
+    const fileName = row.download_url.split("/").pop();
+    const id = fileName.replace(/\.png$/i, "");
 
     // hidden filter data
     card.dataset.faction = row.faction;
     card.dataset.origin = row.game_origin;
     card.dataset.gryphus = row.gryphus;
     card.dataset.aircraft = row.aircraft;
+    card.dataset.id = id;
 
     card.innerHTML = `
       <h3>${title}</h3>
@@ -131,6 +148,7 @@ async function loadCards(csvUrl) {
   populateDropdown("filter-aircraft", "aircraft");
   populateDropdown("filter-faction", "faction");
   applyFiltersFromURL(); 
+  focusCardFromURL(); 
 }
 
 loadCards("extras/x/table.csv");
