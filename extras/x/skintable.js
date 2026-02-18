@@ -1,3 +1,32 @@
+function applyFiltersFromURL() {
+  const params = new URLSearchParams(window.location.search);
+
+  const aircraft = params.get("aircraft");
+  const faction  = params.get("faction");
+  const gryphus  = params.get("gryphus");
+
+  const aircraftSelect = document.getElementById("filter-aircraft");
+  const factionSelect  = document.getElementById("filter-faction");
+  const gryphusCheck   = document.getElementById("filter-gryphus");
+
+  if (aircraft) {
+    aircraftSelect.value = aircraft;
+  }
+
+  if (faction) {
+    factionSelect.value = faction;
+  }
+
+  if (gryphus === "1") {
+    gryphusCheck.checked = true;
+    factionSelect.value = "all";
+    factionSelect.disabled = true;
+  }
+
+  applyFilters();
+}
+
+
 function populateDropdown(id, datasetKey) {
   const select = document.getElementById(id);
   const values = new Set();
@@ -101,6 +130,7 @@ async function loadCards(csvUrl) {
   });
   populateDropdown("filter-aircraft", "aircraft");
   populateDropdown("filter-faction", "faction");
+  applyFiltersFromURL(); 
 }
 
 loadCards("extras/x/table.csv");
