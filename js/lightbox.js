@@ -37,6 +37,7 @@ document.addEventListener('click', e => {
   lightboxVideo.pause();
 
   lightboxImage.hidden = false;
+  lightboxImage.src = '';
   lightboxImage.src = img.src;
 
   lightbox.style.display = 'flex';
