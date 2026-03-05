@@ -1,10 +1,10 @@
 Ace Combat Trilogy HUD Upgrade
 https://superostrich.xyz
-v1.1.2
+v1.2.0
 
 #Changelog 
 
-##[1.1.2] 4/9/2025
+##[1.2.0] 4/9/2025
 ### Added
 - Ace Combat Zero HUD
 - Ace Combat Zero Aircraft Status Icons
