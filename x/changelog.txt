@@ -1,8 +1,21 @@
 Ace Combat X - HD Texture Pack
 https://ostrichmods.com
-v2.0.6
+v2.0.7
 
 #Changelog
+
+##[2.0.7] 3/17/2026
+###Added
+- AAM-3 (F-1, F-2A STDM) texture
+- Submunition effect textures for BDSP, SOD, & SFFS
+###Changed
+- Su-27 - all skins, fixed canopy transparency
+- Su-37 - skins 1~3, adjusted stencils
+- Su-47 - all skins, adjusted stencils
+- XFA-24 - all skins, adjusted stencils, improved engine details
+- XR-45 - all skins, adjusted stencils, improved engine details
+- XR-45 - skin 1, adjusted camo
+- Weapons - all, improved in-game textures
 
 ##[2.0.6] 6/18/2025
 ###Changed
