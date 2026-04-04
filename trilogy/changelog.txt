@@ -1,6 +1,6 @@
 Ace Combat Trilogy HUD Upgrade
 https://ostrichmods.com
-Version 1.2.1
+v1.2.1
 March 19 2026
 
 #Changelog 
