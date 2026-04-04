@@ -1,5 +1,7 @@
 Ace Combat 3D - HD Texture Pack
 https://ostrichmods.com
+v0.9.2
+11/18/2023
 
 ##[0.9.2] - 11/18/2023
 ###Changed
