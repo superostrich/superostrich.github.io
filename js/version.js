@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const lines = text.split('\n');
 
-    const version = lines[2]?.trim();
+    const versionRaw = lines[2]?.trim();
+    const version = versionRaw?.replace(/^v/i, '');
     const date = lines[3]?.trim();
 
     document.getElementById('version').textContent = version || 'N/A';
