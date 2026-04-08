@@ -1,9 +1,19 @@
 Ace Combat X - HD Texture Pack
 https://ostrichmods.com
-v2.0.7
-March 17 2026
+v2.0.8
+April 7 2026
 
 #Changelog
+
+##[2.0.8] 4/7/2026
+###Added
+- Namco Title Screen (JP version)
+###Changed
+- Mirage 2000D - all skins, improved stencils, details
+- Title screens re-made
+- Free mission ranking font replaced
+- Menu screen-effect re-made
+- Title screens, UX elements, and target icons now load correctly on non-English systems
 
 ##[2.0.7] 3/17/2026
 ###Added
