@@ -1,9 +1,17 @@
 Ace Combat X2 Joint Assault - HD Texture Pack
 https://ostrichmods.com 
-v1.12.1
-Jan 12 2025
+v1.12.2
+April 8 2026
 
 #Changelog
+
+##[1.12.2] 4/8/2026
+###Added
+- Japanese Title Screen
+###Changed
+- Title screens re-made
+- Title screens, UX elements, and target icons now load correctly on non-English systems
+- Fixed issue where EN system font would not load if optional PSP font was not installed
 
 ##[1.12.1] 1/12/2025
 ###Changed
